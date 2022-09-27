@@ -1,7 +1,7 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
     transpile: ['gsap'],
-    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@pinia/nuxt',],
+    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@pinia/nuxt', 'nuxt-icon',],
     target: 'static',
     ssr: false,
     css: ['@/assets/css/style.css'],
