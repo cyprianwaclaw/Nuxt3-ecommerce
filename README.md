@@ -40,3 +40,6 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+
+
+vercel: https://nuxt3-ecommerce.vercel.app/
