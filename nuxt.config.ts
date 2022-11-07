@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@pinia/nuxt', 'nuxt-icon',],
     target: 'static',
     ssr: false,
-    css: ['@/assets/css/style.css'],
+    css: ['@/assets/css/style.scss', '@/assets/css/tailwind.css'],
     googleFonts: {
         download: true,
         families: {
@@ -23,4 +23,5 @@ export default defineNuxtConfig({
         preload: false,
         base64: false,
         },
+
 })
