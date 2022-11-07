@@ -1,18 +1,20 @@
 <template>
     <div>
         <div v-if="productStore.loading">
-            <P>Ładowanie</P>
+            <P>Ładowanie...</P>
         </div>
         <div v-for="product in productStore.products" :key="product.id">
-            {{product.title}}
+            {{product.images[1]}}
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
-import {useProductStore} from "/github/Nuxt3-ecommerce/store/products"
+
+import {useProductStore} from "@/store/products"
 const productStore = useProductStore()
 productStore.getProducts()
+
 </script>
 
 <style scoped>

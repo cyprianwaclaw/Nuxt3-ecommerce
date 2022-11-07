@@ -1,4 +1,4 @@
-import { Product } from '../types';
+import { Product } from '@/types';
 import {defineStore} from 'pinia'
 
 export const useProductStore = defineStore('products',{
